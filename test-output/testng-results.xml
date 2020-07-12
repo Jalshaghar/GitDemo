@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="10" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-02-23T01:18:14 CST" name="Loan Department" finished-at="2020-02-23T01:18:15 CST" duration-ms="793">
+    <groups>
+      <group name="Smoke">
+        <method signature="day2.ploan()[pri:0, instance:test.day2@5e4c8041]" name="ploan" class="test.day2"/>
+        <method signature="day4.MobileloginCarloan()[pri:0, instance:test.day4@1a0dcaa]" name="MobileloginCarloan" class="test.day4"/>
+        <method signature="day3.MobileloginCarloan()[pri:0, instance:test.day3@233fe9b6]" name="MobileloginCarloan" class="test.day3"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2020-02-23T01:18:14 CST" name="Personal loan" finished-at="2020-02-23T01:18:14 CST" duration-ms="278">
+      <class name="test.day4">
+        <test-method signature="LoginAPIcarloan()[pri:0, instance:test.day4@1a0dcaa]" started-at="2020-02-23T01:18:14 CST" name="LoginAPIcarloan" finished-at="2020-02-23T01:18:14 CST" duration-ms="42" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginAPIcarloan -->
+        <test-method signature="MobileloginCarloan()[pri:0, instance:test.day4@1a0dcaa]" started-at="2020-02-23T01:18:14 CST" name="MobileloginCarloan" finished-at="2020-02-23T01:18:14 CST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileloginCarloan -->
+        <test-method signature="WebloginCarloan()[pri:0, instance:test.day4@1a0dcaa]" started-at="2020-02-23T01:18:14 CST" name="WebloginCarloan" finished-at="2020-02-23T01:18:14 CST" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebloginCarloan -->
+      </class> <!-- test.day4 -->
+      <class name="test.day2">
+        <test-method is-config="true" signature="prerequiste()[pri:0, instance:test.day2@5e4c8041]" started-at="2020-02-23T01:18:14 CST" name="prerequiste" finished-at="2020-02-23T01:18:14 CST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prerequiste -->
+        <test-method signature="ploan()[pri:0, instance:test.day2@5e4c8041]" started-at="2020-02-23T01:18:14 CST" name="ploan" finished-at="2020-02-23T01:18:14 CST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ploan -->
+      </class> <!-- test.day2 -->
+      <class name="test.day1">
+        <test-method signature="Demo()[pri:0, instance:test.day1@19d37183]" started-at="2020-02-23T01:18:14 CST" name="Demo" finished-at="2020-02-23T01:18:14 CST" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo -->
+        <test-method is-config="true" signature="lastexecution()[pri:0, instance:test.day1@19d37183]" started-at="2020-02-23T01:18:14 CST" name="lastexecution" finished-at="2020-02-23T01:18:14 CST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lastexecution -->
+      </class> <!-- test.day1 -->
+    </test> <!-- Personal loan -->
+    <test started-at="2020-02-23T01:18:15 CST" name="Car Loan" finished-at="2020-02-23T01:18:15 CST" duration-ms="98">
+      <class name="test.day3">
+        <test-method is-config="true" signature="Bfsuite()[pri:0, instance:test.day3@233fe9b6]" started-at="2020-02-23T01:18:14 CST" name="Bfsuite" finished-at="2020-02-23T01:18:14 CST" duration-ms="39" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bfsuite -->
+        <test-method is-config="true" signature="beforclass()[pri:0, instance:test.day3@233fe9b6]" started-at="2020-02-23T01:18:15 CST" name="beforclass" finished-at="2020-02-23T01:18:15 CST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforclass -->
+        <test-method is-config="true" signature="beforeclass()[pri:0, instance:test.day3@233fe9b6]" started-at="2020-02-23T01:18:15 CST" name="beforeclass" finished-at="2020-02-23T01:18:15 CST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method is-config="true" signature="beforeevery()[pri:0, instance:test.day3@233fe9b6]" started-at="2020-02-23T01:18:15 CST" name="beforeevery" finished-at="2020-02-23T01:18:15 CST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeevery -->
+        <test-method signature="MobileloginCarloan()[pri:0, instance:test.day3@233fe9b6]" started-at="2020-02-23T01:18:15 CST" name="MobileloginCarloan" finished-at="2020-02-23T01:18:15 CST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileloginCarloan -->
+        <test-method is-config="true" signature="beforeevery()[pri:0, instance:test.day3@233fe9b6]" started-at="2020-02-23T01:18:15 CST" name="beforeevery" finished-at="2020-02-23T01:18:15 CST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeevery -->
+        <test-method signature="WebloginCarloan()[pri:0, instance:test.day3@233fe9b6]" started-at="2020-02-23T01:18:15 CST" name="WebloginCarloan" finished-at="2020-02-23T01:18:15 CST" duration-ms="29" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebloginCarloan -->
+        <test-method is-config="true" signature="beforeevery()[pri:0, instance:test.day3@233fe9b6]" started-at="2020-02-23T01:18:15 CST" name="beforeevery" finished-at="2020-02-23T01:18:15 CST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeevery -->
+        <test-method signature="WebloginCarloan(java.lang.String)[pri:0, instance:test.day3@233fe9b6]" started-at="2020-02-23T01:18:15 CST" name="WebloginCarloan" finished-at="2020-02-23T01:18:15 CST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[qaclickacademy.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebloginCarloan -->
+        <test-method is-config="true" signature="afterclass()[pri:0, instance:test.day3@233fe9b6]" started-at="2020-02-23T01:18:15 CST" name="afterclass" finished-at="2020-02-23T01:18:15 CST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+      </class> <!-- test.day3 -->
+      <class name="test.day1">
+        <test-method is-config="true" signature="aftSuite()[pri:0, instance:test.day1@19d37183]" started-at="2020-02-23T01:18:15 CST" name="aftSuite" finished-at="2020-02-23T01:18:15 CST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftSuite -->
+      </class> <!-- test.day1 -->
+    </test> <!-- Car Loan -->
+  </suite> <!-- Loan Department -->
+</testng-results>
